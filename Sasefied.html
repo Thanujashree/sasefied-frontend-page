@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .card {
+            background: #d1d9ea;
+            width: 70%;
+            max-width: 800px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .card h1 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .card p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #040404;
+            text-align: left;
+        }
+
+        .card button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: all 0.3s ease;
+          
+        }
+
+        .card button:hover {
+            background-color: #28a745;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: 90%;
+            }
+        }
+        body
+            {
+                background-image: url("C:/Users/Admin/OneDrive/Desktop/background.jpeg"); 
+                /* The link for above background is https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg  */
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+    </style>
+</head>
+<body>
+    
+    <div class="card">
+        <h1>Welcome to Frontend page</h1>
+        <p>This is a simple responsive webpage with a card layout and a styled button with following specifications.</p>
+        <p>Create a responsive webpage using HTML and CSS.<br>
+            The page should include:<br>
+            - A heading, a paragraph, and a button in the center of the page.<br>
+            - A card layout with a shadow effect around the content.</p>
+            
+           <p>Style the button to:<br>
+            - Have a blue background, white text, and a subtle shadow.<br>
+            - On hover, change the background color to green and scale it slightly larger.</p> 
+            
+            <p>Ensure the design is responsive by:<br>
+            - Centering the content vertically and horizontally on larger screens.<br>
+            - On smaller screens, ensuring the card takes up 90% of the screen width.</p>
+        <button>Click Me</button>
+    </div>
+</body>
+</html>
